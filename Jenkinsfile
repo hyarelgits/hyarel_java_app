@@ -26,7 +26,7 @@ pipeline{
             }
 
         }
-        stage('mvn integration')
+        stage('mvn integration'){
 
            steps{
                script{

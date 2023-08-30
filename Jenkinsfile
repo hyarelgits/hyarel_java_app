@@ -11,7 +11,7 @@ pipeline{
             steps{
             gitCheckout(
                 branch: "master",
-                url: "https://github.com/hyarelgits/hyarel_java_app.git"
+                url: "https://github.com/hyarelgits/devtest10.git"
             )
             }
         }

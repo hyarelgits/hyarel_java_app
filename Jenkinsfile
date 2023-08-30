@@ -15,12 +15,12 @@ pipeline{
             )
             }
         }
-        stage('Unit Test maven'){
+        stage('int manavn'){
 
             steps{
                script{
 
-                   mvnTest()
+                   mvnIntegrationTest()
                }
             }
 

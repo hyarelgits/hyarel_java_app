@@ -15,12 +15,13 @@ pipeline{
             )
             }
         }
-        stage('int manavn'){
+        stage('mvn test'){
 
             steps{
                script{
 
-                   mvnIntegrationTest()
+                   mvnTest()
+
                }
             }
 
